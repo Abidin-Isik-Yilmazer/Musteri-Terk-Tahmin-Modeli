@@ -32,17 +32,25 @@ Spagetti kod yazımından kaçınılmış; veri ön işleme, model eğitimi ve a
 Projeyi kendi bilgisayarınızda test etmek için terminalinizde sırasıyla aşağıdaki komutları çalıştırabilirsiniz:
 
 **1. Depoyu İndirin:**
-> git clone https://github.com/Abidin-Isik-Yilmazer/Musteri-Terk-Tahmin-Modeli.git
-> cd Musteri-Terk-Tahmin-Modeli
+```bash
+git clone https://github.com/Abidin-Isik-Yilmazer/Musteri-Terk-Tahmin-Modeli.git
+cd Musteri-Terk-Tahmin-Modeli
+```
 
 **2. Kütüphaneleri Yükleyin:**
-> pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+```
 
 **3. Veri Setini Üretin:**
-> python create_data.py
+```bash
+python create_data.py
+```
 
 **4. Modeli Eğitin ve Test Edin:**
-> python main.py
+```bash
+python main.py
+```
 
 ## 📈 Model Performansı ve Değerlendirme
 
