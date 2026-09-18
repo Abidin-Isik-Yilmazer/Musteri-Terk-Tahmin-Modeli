@@ -1,0 +1,14 @@
+# Sanal ortam dosyaları
+venv/
+env/
+
+# PyCharm ve sistem ayar dosyaları
+.idea/
+.DS_Store
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+
+# Eğer veri setiniz çok büyükse GitHub'a yüklememek için burayı açabilirsiniz
+# data/
